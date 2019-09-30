@@ -1,0 +1,6 @@
+docs/.vuepress/dist
+
+docs/.vuepress/public/live2d
+
+node_modules/
+package-lock.json
