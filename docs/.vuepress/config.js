@@ -41,6 +41,7 @@ module.exports = {
     //sidebar: 'auto'
   },
   plugins: [
+	'@vuepress/back-to-top',//返回到顶部
     [
       'vuepress-plugin-helper-live2d', {
         live2d: {
