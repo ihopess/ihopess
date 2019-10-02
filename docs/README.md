@@ -1,15 +1,17 @@
 ---
 home: true
-heroImage: /images/Layne666.jpg
+heroImage: /images/logo.jpg
 heroText: iHopess-笔记记录
-tagline: Layne666
+tagline: 好记性不如烂笔头 | 一起贡献自己的知识笔记吧
 actionText: 快速了解 →
 actionLink: /
 features:
-- title: 简洁至上
-  details: 以 Markdown 为中心的项目结构，以最少的配置帮助你专注于写作。
-- title: Vue驱动
-  details: 享受 Vue + webpack 的开发体验，在 Markdown 中使用 Vue 组件，同时可以使用 Vue 来开发自定义主题。
-- title: 高性能
-  details: VuePress 为每个页面预渲染生成静态的 HTML，同时在页面被加载的时候，将作为 SPA 运行。
+- title: 个人介绍
+  details: Java后端开发者，也是个前端爱好者（小白一个），如果你也是Java开发或爱好者，就一起学习吧。
+- title: 资料笔记
+  details: Java开发相关的资料与笔记，如：Java面试资料、SpringBoot、Java设计模式等。
+- title: 友情链接
+  details: 如果你也有博客的话，那我们一起互链吧？ヾ(๑╹◡╹)ﾉ"
 ---
+
+> 不定期更新，请小伙伴们随时关注哦！
