@@ -8,6 +8,10 @@ module.exports = {
   themeConfig: {
 	// 你的GitHub仓库，请正确填写
 	repo: 'https://github.com/ihopess/ihopess',
+	editLinks: true,  // 启用编辑
+	editLinkText: '在 GitHub 上编辑此页', // 编辑按钮的 Text
+	docsDir: 'docs',  // 编辑文档的所在目录
+	docsBranch: 'master',  // 编辑文档的所在分支
 	// 自定义仓库链接文字。
 	repoLabel: 'GitHub',
 	nav: [
