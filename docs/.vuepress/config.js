@@ -16,7 +16,7 @@ module.exports = {
 	repoLabel: 'GitHub',
 	nav: [
 		{ text: '主页', link: '/' },
-		{ text: 'Java基础', items: [
+		{ text: 'Java', items: [
 				{ text: 'Java设计模式', link: '/Java设计模式/'}
 			] 
 		},
