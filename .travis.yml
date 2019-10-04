@@ -23,23 +23,23 @@ after_script:
   - unzip qshell.zip -d qshell
   - cd qshell
   - ln -s qshell_linux_x64 qshell
-  - qshell account ${QINIU_AK} ${QINIU_SK} ihopess
-  - qshell listbucket ihopess -o ihopess.list.txt   
-  - qshell batchdelete --force ihopess -i ihopess.list.txt   #删除空间中的所有文件
-  - qshell qupload2 --src-dir=../dist --bucket=ihopess  #上传至七牛云
+  - ./qshell account ${QINIU_AK} ${QINIU_SK} ihopess
+  - ./qshell listbucket ihopess -o ihopess.list.txt   
+  - ./qshell batchdelete --force ihopess -i ihopess.list.txt   #删除空间中的所有文件
+  - ./qshell qupload2 --src-dir=../dist --bucket=ihopess  #上传至七牛云
   - echo "https://ihopess.layne666.site/" > torefresh.txt
-  - qshell cdnrefresh --dirs -i torefresh.txt  #刷新CDN缓存
-  - cd ../dist  
-  - git init
-  - git config user.name "Layne666"  #修改name
-  - git config user.email "791270330@qq.com"  #修改email
-  - git add .
-  - git commit -m "update by Travis-CI"
-  - git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" master:gh-pages  #GH_TOKEN是在Travis中配置token的名称
+  - ./qshell cdnrefresh --dirs -i torefresh.txt  #刷新CDN缓存
+#  - cd ../dist  
+#  - git init
+#  - git config user.name "Layne666"  #修改name
+#  - git config user.email "791270330@qq.com"  #修改email
+#  - git add .
+#  - git commit -m "update by Travis-CI"
+#  - git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" master:gh-pages  #GH_TOKEN是在Travis中配置token的名称
   
 branches:
   only:
     - master  
-env:
- global:
-   - GH_REF: github.com/ihopess/ihopess.git  #设置GH_REF，注意更改yourname
+#env:
+# global:
+#   - GH_REF: github.com/ihopess/ihopess.git  #设置GH_REF，注意更改yourname
