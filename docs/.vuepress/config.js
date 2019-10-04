@@ -66,5 +66,8 @@ module.exports = {
         }
       }
     ]
-  ]
+  ],
+  markdown: { // 为每个代码块显示行号
+    lineNumbers: true
+  }
 }
