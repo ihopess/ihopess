@@ -22,7 +22,8 @@ function integrateGitalk(router) {
     if (!commentsContainer) {
       commentsContainer = document.createElement('div');
       commentsContainer.id = 'gitalk-container';
-      commentsContainer.classList.add('content');
+      //commentsContainer.classList.add('content');
+      commentsContainer.classList.add('page-edit');
     }
     const $page = document.querySelector('.page');
     if ($page) {
