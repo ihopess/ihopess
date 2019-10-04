@@ -1,1 +1,8 @@
-<img src="/images/xiaomai.gif"/>
+## 简介说明
+
+建立的初衷是为了知识笔记更便于管理、查看以及分享出来，然而一个人的力量是有限的。
+
+所以呢，**一起来贡献自己的知识笔记吧！**|ू･ω･` )
+
+<div align="center"><img src="/images/xiaomai.gif"></div>
+

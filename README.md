@@ -1,6 +1,6 @@
 <h1 align="center"><a href="https://github.com/ihopess" target="_blank">iHopess</a></h1>
 
-> This warehouse is stored in our study notes and interview book
+> Our study materials and notes are stored in this repository. 
 
 <p align="center">
 <a href="https://www.travis-ci.org/ihopess/ihopess"><img src="https://img.shields.io/travis/ihopess/ihopess"></a> 
