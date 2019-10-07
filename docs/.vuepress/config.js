@@ -17,7 +17,12 @@ module.exports = {
 	nav: [
 		{ text: '主页', link: '/' },
 		{ text: 'Java', items: [
-				{ text: 'Java设计模式', link: '/Java设计模式/'}
+				{ text: 'Java设计模式', link: '/Java/Java设计模式/'}
+			] 
+		},
+		{ text: '面试', items: [
+				{ text: 'Java基础', link: '/面试/Java基础/'},
+				{ text: '数据库', link: '/面试/数据库/'}
 			] 
 		},
 		{ text: '我的博客', link: 'https://layne666.site' }
@@ -25,7 +30,7 @@ module.exports = {
 	sidebarDepth: 2,
 	lastUpdated: '最后更新于',
     sidebar: {
-		'/Java设计模式/': [
+		'/Java/Java设计模式/': [
 			{
 			  title: 'Java设计模式',
 			  collapsable: false,
