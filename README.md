@@ -32,4 +32,4 @@ npm run docs:dev
 
 ## 预览图
 
-![](https://ihopess.layne666.site/images/预览图.jpg)
+![](http://file.layne666.site/img/20191007141451.jpg)
