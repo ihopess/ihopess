@@ -25,7 +25,7 @@ module.exports = {
 				{ text: '数据库', link: '/面试/数据库/'}
 			] 
 		},
-		{ text: '我的博客', link: 'https://layne666.site' }
+		{ text: '我的博客', link: 'https://layne666.cn' }
 	],
 	sidebarDepth: 2,
 	lastUpdated: '最后更新于',

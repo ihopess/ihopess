@@ -18,7 +18,7 @@ features:
 
 ## 友情链接
 
-<a href="https://layne666.site/" target="_blank"><img src="/images/links/Layne666.jpg" title="我的个人博客" class="friendlinks"/></a>
+<a href="https://layne666.cn/" target="_blank"><img src="/images/links/Layne666.jpg" title="我的个人博客" class="friendlinks"/></a>
 <a href="https://yuefengs.top/" target="_blank"><img src="/images/links/zhudage.jpg" title="朱大哥的个人博客" class="friendlinks"/></a>
 
 
