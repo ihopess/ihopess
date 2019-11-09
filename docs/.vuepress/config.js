@@ -17,7 +17,8 @@ module.exports = {
 	nav: [
 		{ text: '主页', link: '/' },
 		{ text: 'Java', items: [
-				{ text: 'Java设计模式', link: '/Java/Java设计模式/'}
+				{ text: 'Java设计模式', link: '/Java/Java设计模式/六大原则'},
+				{ text: 'Java性能优化', link: '/Java/Java性能优化'},
 			] 
 		},
 		{ text: '面试', items: [
@@ -35,7 +36,7 @@ module.exports = {
 			  title: 'Java设计模式',
 			  collapsable: false,
 			  children: [
-				'',
+				'六大原则',
 				'单例模式'
 			  ]
 			}
