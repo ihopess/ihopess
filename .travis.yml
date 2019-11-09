@@ -27,7 +27,7 @@ after_script:
   - ./qshell listbucket ihopess -o ihopess.list.txt   
   - ./qshell batchdelete --force ihopess -i ihopess.list.txt   #删除空间中的所有文件
   - ./qshell qupload2 --src-dir=../dist --bucket=ihopess  #上传至七牛云
-  - echo "https://ihopess.layne666.site/" > torefresh.txt
+  - echo "https://ihopess.layne666.cn/" > torefresh.txt
   - ./qshell cdnrefresh --dirs -i torefresh.txt  #刷新CDN缓存
 #  - cd ../dist  
 #  - git init
