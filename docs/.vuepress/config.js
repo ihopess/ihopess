@@ -21,6 +21,10 @@ module.exports = {
 				{ text: 'Java性能优化', link: '/Java/Java性能优化'},
 			] 
 		},
+		{ text: '框架', items: [
+				{ text: 'MyBatis', link: '/框架/MyBatis/PageHelper/PageHelper分页插件'},
+			] 
+		},
 		{ text: '面试', items: [
 				{ text: 'Java基础', link: '/面试/Java基础/'},
 				{ text: '数据库', link: '/面试/数据库/'}
