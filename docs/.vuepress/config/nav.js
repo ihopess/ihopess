@@ -6,6 +6,15 @@ module.exports = [
             {text: 'Java性能优化', link: '/pages/203cfb/'}
         ]
     },
+    {
+        text: '学习笔记', items: [
+            {
+                text: '数据库', items: [
+                    { text: 'Redis', link: '/pages/9ff0c2/' }
+                ]
+            }
+        ]
+    },
     {text: '友情链接', link: '/pages/b20950/'},
     {text: '我的博客', link: 'https://layne666.cn'}
     /*{
